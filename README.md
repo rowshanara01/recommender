@@ -10,7 +10,7 @@ uvicorn app.main:app --reload      # localhost:8000/docs
   GET /recommend/999999            # cold-start (notun user)
   GET /similar-items/5             # "ei movie jara dekhe, tara eta-o dekhe"
 
-## Company te ja ja use hoy (ei project e ache)
+## Company te ja ja use hoy (ei project e ache) ##
 - Baseline age (popularity), tarpor complex model; jodi complex model baseline er cheye bhalo na hoy, dorkar nai
 - Collaborative Filtering (item-kNN) + Matrix Factorization (SVD)
 - Ranking metric: Precision@K, Recall@K, NDCG@K (accuracy na), catalog coverage
