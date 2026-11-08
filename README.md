@@ -1,6 +1,6 @@
 # Recommender System (Netflix/Amazon style) #
 
-## Chalanor niyom
+## Chalanor niyom ##
 pip install -r requirements.txt
 python generate_data.py
 python train.py                    # 3 model compare: popularity vs item-kNN vs SVD
