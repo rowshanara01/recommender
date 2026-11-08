@@ -1,4 +1,4 @@
-# Recommender System (Netflix/Amazon style)
+# Recommender System (Netflix/Amazon style) #
 
 ## Chalanor niyom
 pip install -r requirements.txt
