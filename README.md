@@ -12,7 +12,7 @@ pytest -q
 uvicorn app.main:app --reload      # localhost:8000/docs
 ```
 
-API endpoints:
+APIs endpoints:
 
 ```http
 GET /recommend/1?k=10              # personalized recommendations
