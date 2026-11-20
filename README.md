@@ -20,7 +20,7 @@ GET /recommend/999999              # cold-start (new user)
 GET /similar-items/5               # "people who watched this also watched..."
 ```
 
-## What Companies Use in Practice (and This Project Includes)
+#### What Companies Use in Practice (and This Project Includes)
 
 - **Baseline first** (popularity), then more complex models. If a complex model doesn't beat the baseline, it isn't needed.
 - **Collaborative Filtering** (item-kNN) and **Matrix Factorization** (SVD).
