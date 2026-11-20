@@ -29,7 +29,7 @@ GET /similar-items/5               # "people who watched this also watched..."
 - **Cold-start handling:** new users fall back to popularity.
 - API validation, tests, and Docker.
 
-## Challenges
+#### Challenges
 
 1. Tune SVD `n_components` (4, 8, 16, 32) using a validation split.
 2. Use item genres (`items.csv`) to build a content-based and hybrid model.
