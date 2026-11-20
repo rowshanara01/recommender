@@ -18,7 +18,7 @@ uvicorn app.main:app --reload      # localhost:8000/docs
 - Cold-start handling (notun user -> popularity fallback)
 - API validation, tests, Docker
 
-## Challenge
+#### Challenge
 1. SVD er n_components (4, 8, 16, 32) validation split diye tune koro
 2. Item genre (items.csv) use kore content-based + hybrid model banao
 3. Real dataset: MovieLens 100K diye replace koro
