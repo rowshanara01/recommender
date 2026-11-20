@@ -2,7 +2,7 @@
 
 A recommendation engine that suggests items to users based on their past behavior and on what similar users like.
 
-#### How to Run
+#### How to Run ####
 
 ```bash
 pip install -r requirements.txt
