@@ -1,4 +1,4 @@
-# Recommender System (Netflix / Amazon Style)
+#### Recommender System (Netflix / Amazon Style)
 
 A recommendation engine that suggests items to users based on their past behavior and on what similar users like.
 
